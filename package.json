@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@polymer/lit-element": "^0.5.2",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js && http-server -o"
+  }
+}
